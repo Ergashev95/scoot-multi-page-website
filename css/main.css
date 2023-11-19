@@ -1,2 +1,41 @@
 @import url(./fonts.css);
 
+
+/* CUSTOM PROPS */
+:root {
+    --yellow: #FCB72B;
+    --dark-navy: #495567;
+    --dim-grey: #939CAA;
+    --light-grey: #E5ECF4;
+    --snow: #F2F5F9;
+    --light-yellow: #FFF4DF;
+    --space-mono-fm: "SpaceMono";
+
+}
+
+
+/* GLOBAL STYLES */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--space-mono-fm);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.container {
+    max-width: 1190px;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
