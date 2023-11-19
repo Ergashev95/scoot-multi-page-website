@@ -1,0 +1,19 @@
+
+/* SpaceMono */
+@font-face {
+    font-family: "SpaceMono";
+    src: url(../fonts/Space_Mono/SpaceMono-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "SpaceMono";
+    src: url(../fonts/Space_Mono/SpaceMono-Regular.ttf);
+    font-weight: 400;
+}
+
+/* Lexend */
+@font-face {
+    font-family: "Lexend";
+    src: url(../fonts/Lexend/static/Lexend-Regular.ttf);
+    font-weight: 400;
+}
