@@ -8,6 +8,7 @@
     --dim-grey: #939CAA;
     --light-grey: #E5ECF4;
     --snow: #F2F5F9;
+    --white: #fff;
     --light-yellow: #FFF4DF;
     --space-mono-fm: "SpaceMono";
 
@@ -38,4 +39,33 @@ body {
     padding-left: 40px;
     margin-left: auto;
     margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.all-btn {
+    display: block;
+    max-width: 195px;
+    width: 100%;
+    background-color: var(--yellow);
+    border: 1px solid var(--yellow);
+    color: var(--white);
+    font-family: var(--space-mono-fm);
+    font-size: 15px;
+    font-family: 700;
+    line-height: 25px;
+    text-transform: capitalize;
+    transition: .5s;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+.all-btn:hover {
+    background-color: var(--white);
+    color: var(--yellow);
 }
